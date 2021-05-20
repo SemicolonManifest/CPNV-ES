@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "0wtb691Ioxdeogxm0V+1ClBAJxEjQJiIxuibKx2x4LTAfV3n/GToEQHnixgQ6EGs8wTBV+rOfOJ/ZG3mmJ/7GQ==",
+  "success": true,
+  "projectFilePath": "D:\\[HOME]\\projet-candid-ES\\CPNV-ES\\TheVendingMachine\\TheVendingMachine\\TheVendingMachineModel.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Gamer\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Gamer\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
