@@ -1,9 +1,0 @@
-D:\[HOME]\projet-candid-ES\CPNV-ES\TheVendingMachine\TheVendingMachine\bin\Debug\netstandard2.0\TheVendingMachine.deps.json
-D:\[HOME]\projet-candid-ES\CPNV-ES\TheVendingMachine\TheVendingMachine\bin\Debug\netstandard2.0\TheVendingMachine.dll
-D:\[HOME]\projet-candid-ES\CPNV-ES\TheVendingMachine\TheVendingMachine\bin\Debug\netstandard2.0\TheVendingMachine.pdb
-D:\[HOME]\projet-candid-ES\CPNV-ES\TheVendingMachine\TheVendingMachine\obj\Debug\netstandard2.0\TheVendingMachine.csprojAssemblyReference.cache
-D:\[HOME]\projet-candid-ES\CPNV-ES\TheVendingMachine\TheVendingMachine\obj\Debug\netstandard2.0\TheVendingMachine.csproj.CoreCompileInputs.cache
-D:\[HOME]\projet-candid-ES\CPNV-ES\TheVendingMachine\TheVendingMachine\obj\Debug\netstandard2.0\TheVendingMachine.AssemblyInfoInputs.cache
-D:\[HOME]\projet-candid-ES\CPNV-ES\TheVendingMachine\TheVendingMachine\obj\Debug\netstandard2.0\TheVendingMachine.AssemblyInfo.cs
-D:\[HOME]\projet-candid-ES\CPNV-ES\TheVendingMachine\TheVendingMachine\obj\Debug\netstandard2.0\TheVendingMachine.dll
-D:\[HOME]\projet-candid-ES\CPNV-ES\TheVendingMachine\TheVendingMachine\obj\Debug\netstandard2.0\TheVendingMachine.pdb
