@@ -7,6 +7,11 @@ namespace TheVendingMachine.Model
     public class Item
     {
         #region private attributes
+        /* code - The code of the item.
+        *  name - The name of the item.
+        *  quantity - The remaining quantity of the item.
+        *  price - The price of the item
+        */
         private string code;
         private string name;
         private int quantity;
@@ -64,13 +69,14 @@ namespace TheVendingMachine.Model
             }
         }
 
+        /* This method is used to substract the quantity remaining of the item by 1.
+        */
         public void Take()
         {
             if (quantity > 0)
             {
                 quantity = quantity - 1;
             }
-            
         }
 
         public override string ToString()

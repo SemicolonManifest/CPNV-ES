@@ -9,6 +9,8 @@ namespace TheVendingMachine.console
 {
     class Program
     {
+        /** This method is used as entry point of the program to test the classes of the vending machine.
+        */
         static void Main(string[] args)
         {
 
@@ -104,13 +106,13 @@ namespace TheVendingMachine.console
 
             // Scenario extention
             balancePerHour = new decimal[24][];
-            
+
             for (i=0; i <= 23; i++)
             {
                 balancePerHour[i] = new decimal[2];
             }
-            
-            // Puting the hour in the firt column in each row 
+
+            // Puting the hour in the firt column in each row
             for(i = 0; i <= 23; i++)
             {
                 balancePerHour[i][0] = i;
@@ -120,7 +122,7 @@ namespace TheVendingMachine.console
             for (i = 0; i <= 23; i++)
             {
                 balancePerHour[i][1] = 0;
-            }  
+            }
 
             // Adding total of purchases to each hour
             foreach (Purchase purchase in mySelecta.Purchases) {
@@ -130,7 +132,7 @@ namespace TheVendingMachine.console
             // Ordering
             balancePerHour = balancePerHour.OrderByDescending(num => num[1]).ToArray();
 
-            // Outputting to console 
+            // Outputting to console
             Console.WriteLine("\nScenario extension:");
 
             for (i = 0; i <= 2; i++)
@@ -140,10 +142,10 @@ namespace TheVendingMachine.console
 
             Console.ReadKey();
 
+            /* This function is used to reset the initials conditions of the vending machine
+            */
             Selecta NewSelecta()
             {
-                productList = null;
-                mySelecta = null;
 
                 productList = new List<Item>
                 {
@@ -158,11 +160,6 @@ namespace TheVendingMachine.console
                 return mySelecta;
 
             }
-
-
         }
-
-       
-        
     }
 }
